@@ -1,0 +1,11 @@
+.env
+.venv/
+log.jsonl
+__pycache__/
+*.py[cod]
+.chrome-profile/
+context.md
+.DS_Store
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/

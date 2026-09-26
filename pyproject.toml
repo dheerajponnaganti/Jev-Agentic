@@ -1,0 +1,21 @@
+[project]
+name = "jev-agentic"
+version = "0.1.0"
+description = "Always-on macOS voice agent: speak a goal and TypeSafe Jev drives the Mac until it is met."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Dheeraj Ponnaganti", email = "dheerajponnaganti@gmail.com" }]
+keywords = ["voice-agent", "macos", "typesafe", "jev", "whisper", "automation"]
+requires-python = "==3.12.*"
+dependencies = [
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.5.3",
+    "playwright>=1.63.0",
+    "sounddevice>=0.5.6",
+    "typesafe-sdk>=0.7.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/dheerajponnaganti/Jev-Agentic"
+Issues = "https://github.com/dheerajponnaganti/Jev-Agentic/issues"
